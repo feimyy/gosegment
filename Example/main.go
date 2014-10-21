@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/feimyy/gosegment/segment"
+	segment "github.com/feimyy/gosegment"
 	"github.com/feimyy/gosegment/dict"
 )
 
 func main() {
 	seg := segment.NewSegment()
-	err := seg.Init("./bin/dicts")
+	err := seg.Init("./dicts/")
 	if err != nil {
 		fmt.Println("%v", err)
 	}
