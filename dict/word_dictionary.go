@@ -2,7 +2,7 @@ package dict
 
 import (
 	"container/list"
-	"segment/utils"
+	"github.com/feimyy/gosegment/utils"
 	"strconv"
 	"strings"
 )

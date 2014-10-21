@@ -7,7 +7,7 @@
 package dict
 
 import (
-	"segment/utils"
+	"github.com/feimyy/gosegment/utils"
 	"strings"
 )
 

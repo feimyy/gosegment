@@ -1,7 +1,7 @@
 package framework
 
 import (
-	"segment/utils"
+	"github.com/feimyy/gosegment/utils"
 )
 
 const INC = 50

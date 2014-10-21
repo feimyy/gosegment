@@ -2,10 +2,10 @@ package segment
 
 import (
 	"container/list"
-	"segment/dict"
-	"segment/framework"
-	"segment/match"
-	"segment/utils"
+	"github.com/feimyy/gosegment/dict"
+	"github.com/feimyy/gosegment/framework"
+	"github.com/feimyy/gosegment/match"
+	"github.com/feimyy/gosegment/utils"
 	"strings"
 	"regexp"
 	"unicode"
