@@ -8,7 +8,7 @@
 
 ###使用说明:
 ####  第一步: go get github.com/feimyy/gosegment
-####  第二步: 到盘古分词官方网站下载[最新词典](http://pangusegment.codeplex.com/releases/view/50811)
+####  第二步: 拷贝bin/dicts下的字典文件到你的工程中
 ####  第三步: 分词前初始化字典路径
 
     import (
@@ -22,7 +22,7 @@
         //......
         
         segHandler = segment.NewSegment()
-        err := segHandler.Init(path) //path为字典文件的路径,通常在下载的字典文件的dicts目录下
+        err := segHandler.Init(path) //path为工程下字典文件的路径,通常在下载的字典文件的dicts目录下
         if err != nil {
             log.Fatalln("Failed to init segment handler", err)
         }
